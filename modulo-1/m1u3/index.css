@@ -1,3 +1,22 @@
+/* h1 es mmi nombre*/
 h1 {
-    color:cadetblue
+    color:cadetblue;/*Fuente de color*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo de fuente*/
+background-color: beige;/*fondo de color*/
+text-align: center;/*ubicacion del texto*/
+}
+h3{
+    color:chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    text-align: center;
+    background-color: burlywood;
+}
+a{
+    color: red;
+text-align: right;
+}
+.contacto{
+    text-align: right;
 }
