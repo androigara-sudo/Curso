@@ -13,10 +13,18 @@ li{
     text-align: center;
     background-color: burlywood;
 }
-a{
-    color: red;
-text-align: right;
+a{/*enlace*/
+    color: green;
 }
 .contacto{
-    text-align: right;
+    text-align: right;/*posicion derecha*/
 }
+img{
+    width: 300px;
+    height: 280px;
+    padding-top: 10px;
+margin-top: auto;
+margin-left: 280px;
+}
+.datos_personales{
+    text-align: center;}
