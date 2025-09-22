@@ -1,5 +1,3 @@
-h1{
-}
 .dipper{
     width:auto;
     height: auto;
@@ -21,10 +19,12 @@ column-gap: 10px;
 .box{
   width: 250px; /*ancho*/
   height: 250px;/*alto*/
-  background-color: blanchedalmond; /*color de dfondo*/
+  background-color: hsl(36, 100%, 90%); /*color de dfondo*/
   border: 2px solid black; /*borde */
 margin: auto;/*espacio afuera*/
 padding: 100px; /*espacio adentro*/  
 border-radius: 10px;  /*esquinas redondeadas*/
+box-shadow:10px 20px 10px hsl(36, 100%, 80%) ;
 }
+
 
