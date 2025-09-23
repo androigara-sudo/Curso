@@ -12,8 +12,8 @@ h3{
 li{
     text-align: center;
     background-color: burlywood;
-    padding:3px ;/*separa las listas*/
-     list-style-type:none;/*saca el 1,2,3 de li*/
+    padding:3px ;/*separa el contenido del borde*/
+    list-style-type:none;/*saca el 1,2,3 de li*/
 }
 a{/*enlace*/
     color: green;
@@ -21,13 +21,12 @@ a{/*enlace*/
 .contacto{
     text-align: right;/*posicion derecha*/
 }
-img{
-    width: 300px;
-    height: 280px;
+.box_img{
+    text-align: center;
+    width: auto;
+    height: 100%;
     padding-top: 10px;
-margin-top: auto;
-margin-left: 280px;
+    margin-top: auto;
 }
 .datos_personales{
     text-align: center;}
-  
