@@ -1,4 +1,4 @@
-/* h1 es mmi nombre*/
+/* h1 es el titurlo principal*/
 h1 {
     color:cadetblue;/*Fuente de color*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo de fuente*/
@@ -13,7 +13,7 @@ li{
     text-align: center;
     background-color: burlywood;
     padding:3px ;/*separa las listas*/
-     list-style-type:none;/*saca el 1,2,3 de li*/
+    list-style-type:none;/*saca el 1,2,3 de li*/
 }
 a{/*enlace*/
     color: green;
@@ -21,13 +21,12 @@ a{/*enlace*/
 .contacto{
     text-align: right;/*posicion derecha*/
 }
-img{
-    width: 300px;
+.a{
+    width: 100%;
     height: 280px;
     padding-top: 10px;
-margin-top: auto;
-margin-left: 280px;
+    margin-top: auto;
+    text-align: center;
 }
 .datos_personales{
     text-align: center;}
-  
