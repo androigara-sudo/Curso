@@ -5,7 +5,7 @@
   filter:drop-shadow(-5px 5px 5px #0f375f);
 padding: 2px;
 border-radius:10px 10px 0px;
-text-align: center;/*tambien sirve para centra imagen*/
+text-align: center; /*tambien sirve para centra imagen*/
 }
 .descripcion{
 column-count: 2;

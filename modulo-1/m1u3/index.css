@@ -12,6 +12,8 @@ h3{
 li{
     text-align: center;
     background-color: burlywood;
+    padding:3px ;/*separa las listas*/
+     list-style-type:none;/*saca el 1,2,3 de li*/
 }
 a{/*enlace*/
     color: green;
@@ -28,7 +30,4 @@ margin-left: 280px;
 }
 .datos_personales{
     text-align: center;}
-    li{
-     padding:3px ;/*separa las listas*/
-     list-style-type:none;/*saca el 1,2,3 de li*/
-            }
+  
