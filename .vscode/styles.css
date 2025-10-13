@@ -1,0 +1,19 @@
+.flexbox{
+    flex-wrap: wrap;
+    display: flex;
+}
+.item_green{
+    width: 180px;
+    height: 180px;
+    background-color: green;
+}
+.item_red{
+    width: 180px;
+    height: 180px;
+    background-color: red;
+}
+.item_blue{
+    width: 180px;
+    height: 180x;
+    background-color: blue;
+}
