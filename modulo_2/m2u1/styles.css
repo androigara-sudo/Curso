@@ -1,39 +1,39 @@
-.flex-container{
-    padding: 2px;
+.container{
+    margin: 30px auto;
     display: flex;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 300px;
     height: 300px;
 }
-.eje1{
+.container--1{
     display: flex;
-    background-color: rgb(194, 189, 189);
     flex-direction:column;
-    justify-content: flex-end;
     align-items: flex-end;
 }
-.eje2{
-    background-color: bisque;
+.container--2{
     align-items: center;
     flex-direction: row-reverse;
 }
-.eje3{
-    background-color: rgb(241, 214, 180);
+.container--3{
+    
+    min-width: 500px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
 }
-.box_1{
-    background-color: red;
-}
-.box_2{
-    background-color: blue;
-}
-.box_3{
-    background-color: green;
-}
-.caja{
+.container_box{
     display:flex ;
-    text-align: center;
+    justify-content: center;
+    align-items:center ;
     width: 100px;
     height: 100px;
+}
+.box--1{
+    background-color: red;
+}
+.box--2{
+    background-color: blue;
+}
+.box--3{
+    background-color: green;
 }
