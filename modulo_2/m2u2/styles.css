@@ -47,15 +47,27 @@ background-color: #fff8dc;
 background-color: #f5deb3;
 }
 
-/* 🌐 Ejemplo de Media Query */
+/* 🌐 Ejemplo de Media Query */   
 @media (max-width: 800px) {
-nav li {
-display: block;
-    margin-right: 0;
-}
+    header {
+        padding: 10px;
+    }
 
-section {
-    font-size: 0.9em;
-    padding: 10px;
-}
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        font-size: 0.95em;
+        padding: 15px;
+    }
+
+    body {
+        padding: 5px;
+    }
 }
